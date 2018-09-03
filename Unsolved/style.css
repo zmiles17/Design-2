@@ -1,7 +1,7 @@
 body {
     background: #494b4c;
     display: grid;
-    font-family: 'Sonsie One', cursive;
+    font-family: 'Sonsie One';
     color: white;
   }
   
@@ -27,22 +27,14 @@ body {
   
   @media only screen and (min-width: 850px) {
     main {
-      margin: 50px auto;
       display: grid;
-      align-items: center;
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-columns: repeat(9, 1fr);
-      grid-gap: 8px;
+      grid-template-columns: repeat(9, 1fr);  
     }
   }
   
   @media only screen and (min-width: 1200px) {
     main {
-      margin: 50px auto;
       display: grid;
-      align-items: center;
-      grid-template-rows: repeat(4, 1fr);
       grid-template-columns: repeat(11, 1fr);
-      grid-gap: 8px;
-    }
+      }
   }
